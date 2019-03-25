@@ -29,10 +29,11 @@ def kesha_maker(array)
   new_array = []
   array.each do |x|
       #x.insert(2, "$")
+      d = x.slice(3)
       new_array << x
     end
-      
-  new_array
+  d
+  #new_array
 end
 
 
