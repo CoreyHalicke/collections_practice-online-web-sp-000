@@ -16,4 +16,7 @@ def swap_elements(array)
   array
 end
 
-def 
+def swap_elements_from_to(array,position_one,position_two)
+  array[position_one], array[position_two] = array[position_two], array[position_one]
+  array
+end
