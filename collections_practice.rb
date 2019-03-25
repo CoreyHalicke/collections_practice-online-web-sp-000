@@ -42,8 +42,10 @@ def sum_array(array)
 end
 
 def add_s(array)
+  new_array = []
   array.each do |x|
     length = x.length
     x[length] = "s"
+    new_array << x
 end
 
