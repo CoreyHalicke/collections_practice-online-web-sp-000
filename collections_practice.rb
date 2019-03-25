@@ -21,4 +21,6 @@ def swap_elements_from_to(array,position_one,position_two)
   array
 end
 
-def 
+def reverse_array(array)
+  array.sort.reverse
+end
