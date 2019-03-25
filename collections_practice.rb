@@ -31,6 +31,7 @@ def kesha_maker(array)
       x.insert(2, "$")
       x.delete(3)
       new_array << x
+    end
       
   new_array
 end
