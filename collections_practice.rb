@@ -45,7 +45,7 @@ def add_s(array)
   new_array = []
   counter = 0 
   array.each do |x|
-    if counter <> 1
+    if counter == 1
     counter += 1
     else
     length = x.length
