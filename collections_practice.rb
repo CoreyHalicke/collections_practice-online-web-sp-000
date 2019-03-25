@@ -49,6 +49,7 @@ def add_s(array)
     length = x.length
     x[length] = "s"
     new_array << x
+    counter += 1
   end
 end
 
